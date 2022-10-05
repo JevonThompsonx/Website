@@ -3,12 +3,13 @@ body {
     background-color: #51C2D5;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
 }
 
 h1 {
     color: #EC4646;
     font-family: 'Sacramento', cursive;
-    font-size: 437.5%;
+    font-size: 5.625rem;
 }
 
 p {
@@ -23,46 +24,74 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Sacramento', cursive;
 **/
 /**************************CLASS SELECTORS************************/
+.headers {
+    color: #663F3F;
+    font-size: 3.17rem;
+
+}
 
 .profile {
 
     margin-top: 100px;
 }
+
 /*****************************ID SELECTORS************************/
-#intro {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding-right: 70px;
-}
-
-#web {
-    position: relative;
-    bottom: 35px;
-
-}
-
-#mountain-home {
-    text-align: center;
-    margin: 0 auto 0 auto;
-    height: 300px;
-}
-
 #cloud-space {
-    height: 45px;
+    height: 130px;
     width: 100%;
     position: relative;
-
 
 }
 
 #top-cloud {
-    width: 180px;
-    height: auto;
+    width: auto;
+    height: 150px;
     position: absolute;
-    top: 15px;
+    top: 30px;
     margin-left: 80px;
 
+}
+
+#intro {
+    position: relative;
+    height: 160px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#whand {
+    position: absolute;
+    height: 150px;
+    width:auto;
+    left: 0;
+    top: 0;
+}
+
+#name {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#web {
+
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#mountain-home {
+    position: relative;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    height: 300px;
+    width: 800px;
 }
 
 #mountain {
@@ -72,16 +101,16 @@ font-family: 'Sacramento', cursive;
 }
 
 #bottom-cloud {
-    width: 180px;
-    height: auto;
+    width: auto;
+    height: 150px;
     position: absolute;
     margin-left: 100px;
-    top: 200px;
+    top: 0;
 
 
 }
 
-#me-pic { 
+#me-pic {
     height: 180px;
     width: auto;
 }
