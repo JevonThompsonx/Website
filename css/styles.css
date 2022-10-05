@@ -1,0 +1,87 @@
+/**************************TAG SELECTORS**************************/
+body {
+    background-color: #51C2D5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    color: #EC4646;
+    font-family: 'Sacramento', cursive;
+    font-size: 437.5%;
+}
+
+p {
+    color: #BBF1FA;
+}
+
+
+/** Font options
+font-family: 'Montserrat', sans-serif;
+font-family: 'Peralta', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+**/
+/**************************CLASS SELECTORS************************/
+
+.profile {
+
+    margin-top: 100px;
+}
+/*****************************ID SELECTORS************************/
+#intro {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-right: 70px;
+}
+
+#web {
+    position: relative;
+    bottom: 35px;
+
+}
+
+#mountain-home {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    height: 300px;
+}
+
+#cloud-space {
+    height: 45px;
+    width: 100%;
+    position: relative;
+
+
+}
+
+#top-cloud {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    top: 15px;
+    margin-left: 80px;
+
+}
+
+#mountain {
+    position: relative;
+    height: 380px;
+
+}
+
+#bottom-cloud {
+    width: 180px;
+    height: auto;
+    position: absolute;
+    margin-left: 100px;
+    top: 200px;
+
+
+}
+
+#me-pic { 
+    height: 180px;
+    width: auto;
+}
