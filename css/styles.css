@@ -1,19 +1,21 @@
 /**************************TAG SELECTORS**************************/
 body {
-    background-color: #51C2D5;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
+  background-color: #51C2D5;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
 }
 
 h1 {
-    color: #EC4646;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;
+  color: #EC4646;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
 }
 
 p {
-    color: #BBF1FA;
+  color: #BBF1FA;
 }
 
 
@@ -23,89 +25,118 @@ font-family: 'Peralta', cursive;
 font-family: 'Roboto', sans-serif;
 font-family: 'Sacramento', cursive;
 **/
-/**************************CLASS SELECTORS************************/
-.headers {
-    color: #663F3F;
-    font-size: 3.17rem;
 
-}
-
-.profile {
-
-    margin-top: 100px;
-}
-
-/*****************************ID SELECTORS************************/
+/*****************************Mountain area************************/
 #cloud-space {
-    height: 120px;
-    width: 100%;
-    position: relative;
-
+  height: 120px;
+  width: 800px;
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #top-cloud {
-    width: auto;
-    height: 150px;
-    position: absolute;
-    top: 30px;
-    margin-left: 80px;
-
+  width: auto;
+  height: 150px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 #intro {
-    position: relative;
-    height: 160px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom:30px;
+  position: relative;
+  height: 160px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
 }
 
 #me-pic {
-    position: absolute;
-    height: 180px;
-    width:auto;
-    left: -15px;
-    top: 0;
-    z-index: 10;
+  position: absolute;
+  height: 180px;
+  width: auto;
+  left: -15px;
+  top: 0;
+  z-index: 10;
 }
 
 #name {
-    position: absolute;
-    right: 0;
-    top: 15px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #web {
 
-    position: absolute;
-    top: 130px;
-    right: 20px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-
-}
-
-#mountain-home {
-    position: relative;
-    text-align: center;
-    margin: 0 auto 0 auto;
-    height: 300px;
-    width: 800px;
-}
-
-#mountain {
-    position: relative;
-    height: 380px;
+  position: absolute;
+  top: 130px;
+  right: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
 }
 
 #bottom-cloud {
-    width: auto;
-    height: 150px;
-    position: absolute;
-    margin-left: 100px;
-    top: 0;
+  width: auto;
+  height: 150px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#mountain-home {
+  position: relative;
+  text-align: center;
+  margin: 50px auto 0 auto;
+  height: 300px;
+  width: 800px;
+}
+
+#mountain {
+  position: relative;
+  height: 380px;
+
+}
+.profile {
+  margin-top: 100px;
+}
+/**************************skill section************************/
+.middle-container h3 {
+color:#663F3F;
+}
+#skills-container{
+  height: 1227.530px;
+  width:70% ;
+  text-align: center;
+  margin: auto;
+}
+
+
+@media (orientation:portrait) {
+  #skills-container{
+    width:100% ;
+  }
+}
+/**Link edits **/
+a:link {
+  text-decoration: none;
+  color: #F6F6F6;
+
+}
+a:visited {
+  text-decoration: none;
+  color: #FF7777;
+}
+a:hover {
+  text-decoration: underline;
+  color: hotpink;
+
+}
+a:active {
+  text-decoration: underline;
+  color: #FFB200;
 }
