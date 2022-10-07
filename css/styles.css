@@ -150,7 +150,7 @@ a:active {
 }
 
 #skills-section {
-  height: 800px;
+  height: 50rem;
   position: relative;
   width: 70%;
   text-align: center;
@@ -194,7 +194,7 @@ a:active {
 #web-pic {
   position: absolute;
   right: 15%;
-  top: -40px;
+  top: -2.5rem;
 }
 
 .pc-left {
@@ -207,7 +207,7 @@ a:active {
 #pc-pic {
   position: absolute;
   left:15%;
-  height: 300px;
+  height: 18.75rem;
   width: auto;
 }
 
@@ -224,7 +224,7 @@ a:active {
 
 
 #contact-me {
-  height: 500px;
+  height: 31.25rem;
   width: auto;
   margin: auto auto 0 auto;
 }
