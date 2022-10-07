@@ -12,7 +12,10 @@ h1 {
   color: #EC4646;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
+  font-weight: 600;
 }
+
+h2 {}
 
 p {
   color: #BBF1FA;
@@ -29,8 +32,9 @@ font-family: 'Sacramento', cursive;
 /*****************************Mountain area************************/
 #my-skills {
   color: #FF7777;
-  margin:20px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
+
 #cloud-space {
   height: 120px;
   width: 800px;
@@ -51,7 +55,7 @@ font-family: 'Sacramento', cursive;
 #intro {
   position: relative;
   height: 160px;
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -61,7 +65,7 @@ font-family: 'Sacramento', cursive;
   position: absolute;
   height: 180px;
   width: auto;
-  left: -15px;
+  left: 75px;
   top: 0;
   z-index: 10;
 }
@@ -81,7 +85,8 @@ font-family: 'Sacramento', cursive;
   right: 20px;
   margin-top: 0px;
   margin-bottom: 0px;
-
+  font-weight: 100;
+  text-decoration: underline;
 }
 
 #bottom-cloud {
@@ -105,42 +110,121 @@ font-family: 'Sacramento', cursive;
   height: 380px;
 
 }
+
 .profile {
   margin-top: 100px;
 }
+
 /**************************skill section************************/
 .middle-container h3 {
-color:#663F3F;
+  color: #663F3F;
 }
-#skills-container{
-  height: 1227.530px;
-  width:70% ;
-  text-align: center;
-  margin: auto;
-}
-
 
 @media (orientation:portrait) {
-  #skills-container{
-    width:100% ;
+  #skills-container {
+    width: 100%;
   }
 }
+
 /**Link edits **/
 a:link {
   text-decoration: none;
   color: #F6F6F6;
 
 }
+
 a:visited {
   text-decoration: none;
   color: #FF7777;
 }
+
 a:hover {
   text-decoration: underline;
   color: hotpink;
 
 }
+
 a:active {
   text-decoration: underline;
   color: #FFB200;
+}
+
+#skills-section {
+  height: 800px;
+  position: relative;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+
+#skills-section h3 {
+  color: #663F3F;
+}
+
+.skill-top {
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 100%;
+}
+
+.skill-bottom {
+  position: absolute;
+  bottom: 0;
+  height: 50%;
+  width: 100%;
+}
+
+.web-right {
+  position: absolute;
+  right: 0 ;
+  height: 100%;
+  width: 55%;
+}
+
+.web-left {
+  height: 100%;
+  width: 55%;
+  position: absolute;
+  left: 0;
+}
+
+#web-header2 {}
+
+#web-pic {
+  position: absolute;
+  right: 15%;
+  top: -40px;
+}
+
+.pc-left {
+  position: absolute;
+  left: 0 ;
+  height: 100%;
+  width: 55%;
+}
+
+#pc-pic {
+  position: absolute;
+  left:15%;
+  height: 300px;
+  width: auto;
+}
+
+.pc-right {
+  height: 100%;
+  width: 55%;
+  position: absolute;
+  right: 0;
+}
+
+#pc-header {
+  margin-top: 0;
+}
+
+
+#contact-me {
+  height: 500px;
+  width: auto;
+  margin: auto auto 0 auto;
 }
