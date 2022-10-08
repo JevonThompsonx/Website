@@ -1,0 +1,89 @@
+#cloud-space { 
+    height: 110px;;
+    width: 100%
+}
+#top-cloud {
+    height: 110%;
+    width: auto;
+    top:10%;
+}
+#intro {
+    width: 100%;
+    height: 160px;
+    margin-bottom:0;
+}
+#me-pic {
+    height: 85%;
+    left: 5%;
+}
+#name {
+    font-size: 4rem;
+    right: 5%;
+}
+#web {
+    font-size: 1.2rem;
+    top: 60%;
+}
+#mountain-home {
+    margin-top: 0;
+    margin-top: 0;
+    height: 195.500px;
+    width: 100%;
+
+}
+#bottom-cloud {
+    width:auto ;
+    height: 121px;
+}
+#mountain {
+    width: 100%;
+    height: auto;
+}
+.profile {
+    margin-top: 0%;
+    font-size: 1rem;
+}
+#my-skills {
+    font-size: 2rem;
+    margin-top: 0;
+}
+#skills-section {
+    height: 50vh;
+    width: 100%;
+}
+#web-pic {
+    height: 100%;
+    width: auto;
+    top:0;
+    right: -5%;
+}
+#web-header {
+    font-size: 1.5rem;
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+#web-desc {
+    font-size: 1rem;
+    margin-top: 0;
+}
+#pc-pic {
+    height: auto;
+    width: 70%;
+    left:10%;
+}
+#pc-header {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+}
+#pc-desc {
+    font-size: 1rem;
+}
+#pc-right {
+
+}
+#contact-me h2 {
+    font-size: 2rem;
+}
+#contact-me {
+    font-size: 1.5rem;
+}
