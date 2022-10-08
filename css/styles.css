@@ -220,8 +220,8 @@ a:active {
 
 
 #contact-me {
-  height: 31.25rem;
-  width: auto;
+  height: auto;
+  width: 100%;
   margin: auto auto 0 auto;
 }
 
@@ -231,7 +231,7 @@ a:active {
   }
 }
 
-@media only screen and (max-device-width: 1300px) {
+@media (max-height:3000px) and (max-width: 1500px) {
   #cloud-space {
     height: 80px;
     width: 100%;
@@ -302,6 +302,10 @@ a:active {
   }
   .web-left {
     right: 0;
+    left: auto;
+  }
+  .web-right {
+    left: 0;
   }
   #web-pic {
     height: 200px;
@@ -325,8 +329,9 @@ a:active {
     width: 50%;
   }
   .pc-left {
-    margin-left: 50%;
+
     right: 0;
+    left:auto;
     width: 50%;
   }
   #pc-header {
@@ -346,6 +351,10 @@ a:active {
     height: 120px;
     top: 25%;
     left: 0%;
+  }
+  #contact-me {
+    margin-top: 50px;
+    font-size: 1rem;
   }
 
 }
