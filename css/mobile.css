@@ -136,7 +136,7 @@
     }
 
     #name {
-        right: 3%;
+        right: 0%;
         font-size: 3.5rem;
     }
 
@@ -161,12 +161,11 @@
         font-size: 1rem;
         margin-left: 5%;
     }
-
-    /**Mobike S**/
+    }
+    /**Mobile S**/
     @media (max-width:320px) {
 
-        #top-cloud,
-        #bottom-cloud {
+        #top-cloud,#bottom-cloud {
             height: 115px;
         }
 
@@ -176,7 +175,7 @@
 
         #name {
             font-size: 3.2rem;
-            right: 5px;
+            right: 2px;
         }
 
         #web {
@@ -188,8 +187,9 @@
             top: -20%;
         }
     }
+
     /**Iphone SE**/
-    @media (max-width:375px) and (max-height:667px) {
+    @media (min-width:370px) and (max-height:670px) {
         #pc-desc {
             margin-top: 4%;
             font-size: .9rem;
@@ -198,4 +198,10 @@
             margin-top: 10%;
         }
     }
-}
+
+    /**Iphone 12 Pro**/
+    @media (min-width:380px) and (max-height:854px) {
+        #name {
+            right:0px;
+        }
+    }
