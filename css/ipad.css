@@ -31,7 +31,9 @@
     #pc-desc {
         margin-top: 3%;
     }
-
+    #contact-me {
+        margin-bottom: 10%;
+    }
 /**ipad mini**/
 @media (max-width:768px) {
     #pc-pic {
