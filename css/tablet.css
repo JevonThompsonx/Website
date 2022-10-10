@@ -118,14 +118,13 @@ top: 97%;
 
 #contact-me {
     font-size: 1.5rem;
+    margin-top: -5%;
 }
 
 #skills-section {
     height: 80vh;
 }
-#contact-me {
-    margin-top: -7%;
-}
+
 #pc-header,#pc-pic {
     margin-top: 12%;
 }
