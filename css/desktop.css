@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-  color: #BBF1FA;
+  color: #EAF6F6;
 }
 
 
@@ -116,7 +116,18 @@ font-family: 'Sacramento', cursive;
 .profile {
   margin-top: 6.25rem;
 }
+.divider {
+  border-style: none;
+  border-top: 5px dotted;
+  color: #663F3F;
+  height: 15%;
+  width: 8%;
 
+}
+#bottom-divier {
+  position: absolute;
+  bottom: 10%;
+}
 /**************************skill section************************/
 .middle-container h3 {
   color: #663F3F;
@@ -223,8 +234,9 @@ a:active {
 #contact-me {
   height: auto;
   width: 100%;
-  margin: auto auto 0 auto;
+  margin: auto auto 1% auto;
 }
+
 #btn {
   background: #3498db;
   background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
@@ -269,17 +281,20 @@ a#btn:active {
   color: #FFB200;
 }
 .footer-link {
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
   text-align: center;
   background-color: #51C2D5;
-  color: #BBF1FA;
+  color: #EAF6F6;
   font-size: .8em;
+  font-family: 'Montserrat', sans-serif;
+
 }
-#contact-me {
-  margin-bottom: 5%;
+.footer-link p {
+  margin: 0;
+}
+.footer-link a {
+  margin-left:.5% ;
+  margin-right:.5% ;
 }
 @media (orientation:portrait) {
   #skills-section {
